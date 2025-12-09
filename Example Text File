@@ -1,0 +1,35 @@
+Cleaned dataset shape: (953, 26)
+                            track_name  mood_score  intensity_score
+0  Seven (feat. Latto) (Explicit Ver.)      0.7120         0.798680
+1                                 LALA      0.4331         0.701660
+2                              vampire      0.1632         0.537990
+3                         Cruel Summer      0.3190         0.679524
+4                       WHERE SHE GOES      0.1495         0.744903
+
+=== Popularity (Streams) Prediction Model ===
+R² Score: 0.835
+MAE: 140,435,972
+
+Top 10 Most Important Predictors:
+in_deezer_playlists     0.416753
+in_spotify_playlists    0.359639
+in_apple_playlists      0.058938
+released_year           0.039076
+in_spotify_charts       0.021443
+bpm                     0.010749
+mood_score              0.010141
+in_apple_charts         0.009491
+in_shazam_charts        0.009092
+danceability_%          0.008010
+dtype: float64
+
+=== Example Recommendations ===
+
+Top 5 recommendations similar to 'Cruel Summer':
+
+                   track_name     artists_name  mood_score  intensity_score
+                    die first    Nessa Barrett      0.1936         0.622835
+                     good 4 u   Olivia Rodrigo      0.3808         0.644583
+                          O.O            NMIXX      0.1092         0.676087
+                   Prohibidox             Feid      0.3380         0.762379
+Jimmy Cooks (feat. 21 Savage) Drake, 21 Savage      0.2160         0.643126
