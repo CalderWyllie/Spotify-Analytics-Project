@@ -62,30 +62,19 @@ intensity_score
 
 Example:
 
-recommend("Cruel Summer", n=5)
+recommend("Cruel Summer", n=4)
 
 
 Sample Output
 
-Top 5 recommendations similar to 'Cruel Summer':
+Top 4 recommendations similar to 'Cruel Summer':
 
                    track_name     artists_name  mood_score  intensity_score
                     die first    Nessa Barrett      0.1936         0.622835
                      good 4 u   Olivia Rodrigo      0.3808         0.644583
                           O.O            NMIXX      0.1092         0.676087
                    Prohibidox             Feid      0.3380         0.762379
+                 
 
 
 This recommends songs with a similar “vibe,” not necessarily the same genre.
-
-🧠 What I Learned
-
-Playlist placement is a major driver of popularity
-
-Audio features can be used to measure a song’s emotion and intensity
-
-Feature engineering significantly improves model performance
-
-Cosine similarity works well for vibe-based recommendations
-
-Real-world datasets require careful cleaning
