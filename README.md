@@ -74,7 +74,6 @@ Top 5 recommendations similar to 'Cruel Summer':
                      good 4 u   Olivia Rodrigo      0.3808         0.644583
                           O.O            NMIXX      0.1092         0.676087
                    Prohibidox             Feid      0.3380         0.762379
-Jimmy Cooks (feat. 21 Savage) Drake, 21 Savage      0.2160         0.643126
 
 
 This recommends songs with a similar “vibe,” not necessarily the same genre.
